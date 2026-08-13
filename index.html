@@ -1,218 +1,192 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="tr">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Bcs Company</title>
-    <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bcs Studio — her yaş için sakin, renkli ve özenle tasarlanmış mobil bulmaca oyunları.">
+  <meta name="theme-color" content="#07120f">
+  <meta property="og:title" content="Bcs Studio | Play. Relax. Repeat.">
+  <meta property="og:description" content="Renkli dünyalar, tatmin edici bulmacalar ve her an oynanabilen mobil oyunlar.">
+  <meta property="og:type" content="website">
+  <title>Bcs Studio | Mobile Puzzle Games</title>
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
-<body id="page-top">
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand" href="#page-top"><img src="assets/img/logos/bcslogo.png" alt="..." /></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="fas fa-bars ms-1"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#portfolio">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#team">Me</a> </li>
-                </ul>
-            </div>
+<body>
+  <a class="skip-link" href="#games" data-tr="Oyunlara geç" data-en="Skip to games">Oyunlara geç</a>
+
+  <header class="site-header" id="top">
+    <div class="nav-shell">
+      <a class="brand" href="#top" aria-label="Bcs Studio ana sayfa">
+        <span class="brand-mark" aria-hidden="true"><span>B</span></span>
+        <span class="brand-name">BCS <strong>STUDIO</strong></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span><span class="sr-only">Menü</span>
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="Ana navigasyon">
+        <a href="#games" data-tr="Oyunlar" data-en="Games">Oyunlar</a>
+        <a href="#studio" data-tr="Stüdyo" data-en="Studio">Stüdyo</a>
+        <a href="#contact" data-tr="İletişim" data-en="Contact">İletişim</a>
+        <div class="language-switch" role="group" aria-label="Dil seçimi">
+          <button type="button" data-language="tr" class="is-active" aria-pressed="true">TR</button>
+          <span>/</span>
+          <button type="button" data-language="en" aria-pressed="false">EN</button>
         </div>
-    </nav>
-    <!-- Masthead-->
-    <header class="masthead">
-        <div class="container">
-            <div class="masthead-subheading">Welcome To Bcs Company</div>
-            <div class="masthead-heading text-uppercase"></div>
-            <br />
-            <br />
-            <br />
-            <br />
-            <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
-        </div>
-    </header>
-    <!-- Services-->
-    <section class="page-section" id="services">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase">Services</h2>
-                <!--
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                -->
-            </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <img class="img-fluid" src="assets/img/logos/flutter.png" alt="..." />
-                    </span>
-                    <h4 class="my-3">Flutter</h4>
-                    <p class="text-muted">Mobile application development with Flutter</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <img class="img-fluid" src="assets/img/logos/unity.png" alt="..." />
-                    </span>
-                    <h4 class="my-3">Unity</h4>
-                    <p class="text-muted">Mobile game development with Unity</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <img class="img-fluid" src="assets/img/logos/aspnetcore.png" alt="..." />
-                    </span>
-                    <h4 class="my-3">Web Development</h4>
-                    <p class="text-muted"> Web development with ASP.Net, ASP.Net Core</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Portfolio Grid-->
-    <section class="page-section bg-light" id="portfolio">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase">Projects</h2>
-                <!--
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                -->
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <!-- Portfolio item 1-->
-                    <!-- 
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="mx-auto img-fluid" src="assets/img/portfolio/blockpuzzle.png" alt="..." />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Block Puzzle</div>
-                            <a href="https://play.google.com/store/apps/details?id=com.BcsCompany.BlockPuzzle" target="_blank">
-                                View on Google Play
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="mx-auto img-fluid" src="assets/img/portfolio/wordcrosspuzzle.png" alt="..." />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Word Cross Puzzle</div>
-                            <a href="https://play.google.com/store/apps/details?id=com.BcsCompany.WordCrossPuzzleEng" target="_blank">
-                                View on Google Play
-                            </a>
-                        </div>
-                    </div>-->
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Team-->
-    <!--
-    <section class="page-section bg-light" id="team">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase">Me</h2>
-                
-                                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                
-            </div>
-            <div class="row">
-                <div class="col-lg-4 mx-auto">
-                    <div class="team-member">
-                        <img class="mx-auto rounded-circle img-fluid" src="assets/img/team/profile_img.jpg" alt="..." />
-                        <h4>Batıkan Çağrı SAVCI</h4>
-                        <p class="text-muted">Full Stack Developer</p>
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 mx-auto text-center"><p class="large text-muted"></p></div>
-            </div>
-        </div>
-    </section>
-    -->
-    <!-- Footer-->
-    <footer class="footer py-4">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-4 text-lg-start">&copy; 2023 - Bcs Company</div>
-                <div class="col-lg-4 my-3 my-lg-0">
-                    <a class="btn btn-dark btn-social mx-2" href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-                <div class="col-lg-4 text-lg-end">
-                    <a class="link-dark text-decoration-none me-3" href="#">Privacy Policy</a>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- Portfolio Modals-->
-    <!-- Portfolio item 1 modal popup-->
-    <!--
-            <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>
-                                        <strong>Client:</strong>
-                                        Threads
-                                    </li>
-                                    <li>
-                                        <strong>Category:</strong>
-                                        Illustration
-                                    </li>
-                                </ul>
-                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                    <i class="fas fa-xmark me-1"></i>
-                                    Close Project
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </nav>
     </div>
-        -->
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-glow hero-glow-one"></div>
+      <div class="hero-glow hero-glow-two"></div>
+      <div class="hero-grid shell">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span><span data-tr="BAĞIMSIZ OYUN STÜDYOSU" data-en="INDEPENDENT GAME STUDIO">BAĞIMSIZ OYUN STÜDYOSU</span></p>
+          <h1 id="hero-title"><span data-tr="Oyna." data-en="Play.">Oyna.</span><br><span data-tr="Rahatla." data-en="Relax.">Rahatla.</span><br><em data-tr="Tekrarla." data-en="Repeat.">Tekrarla.</em></h1>
+          <p class="hero-lead" data-tr="Sade fikirleri canlı dünyalara dönüştürüyoruz. Her yaş için rahatlatıcı, sezgisel ve tekrar tekrar oynamak isteyeceğiniz mobil bulmacalar." data-en="We turn simple ideas into vibrant worlds. Relaxing, intuitive mobile puzzles for all ages—made to be played again and again.">Sade fikirleri canlı dünyalara dönüştürüyoruz. Her yaş için rahatlatıcı, sezgisel ve tekrar tekrar oynamak isteyeceğiniz mobil bulmacalar.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#games"><span data-tr="Oyunları keşfet" data-en="Explore games">Oyunları keşfet</span><span aria-hidden="true">↘</span></a>
+            <a class="button button-ghost" href="https://play.google.com/store/apps/developer?id=Bcs+Studio" target="_blank" rel="noopener"><span class="play-symbol" aria-hidden="true">▶</span><span>Google Play</span></a>
+          </div>
+          <div class="hero-stats" aria-label="Stüdyo bilgileri">
+            <div><strong>5</strong><span data-tr="AKTİF OYUN" data-en="LIVE GAMES">AKTİF OYUN</span></div>
+            <div><strong>100%</strong><span data-tr="BAĞIMSIZ" data-en="INDEPENDENT">BAĞIMSIZ</span></div>
+            <div><strong>∞</strong><span data-tr="BULMACA KEYFİ" data-en="PUZZLE JOY">BULMACA KEYFİ</span></div>
+          </div>
+        </div>
+
+        <div class="hero-art reveal" aria-label="Bcs Studio oyunlarından görseller">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="phone-card phone-card-back">
+            <img src="assets/img/games/mahjong-triple-match/screenshot-1.webp" alt="Mahjong Triple Match oyun ekranı">
+          </div>
+          <div class="phone-card phone-card-front">
+            <img src="assets/img/games/puzzle-of-fruits/screenshot-1.webp" alt="Puzzle of Fruits oyun ekranı">
+          </div>
+          <img class="floating-icon icon-fruit" src="assets/img/games/puzzle-of-fruits/icon.webp" alt="Puzzle of Fruits ikonu">
+          <img class="floating-icon icon-animal" src="assets/img/games/cute-animal-match/icon.webp" alt="Cute Animal Match ikonu">
+          <div class="spark spark-one">✦</div><div class="spark spark-two">✦</div>
+        </div>
+      </div>
+      <div class="scroll-cue"><span data-tr="KEŞFET" data-en="SCROLL">KEŞFET</span><i></i></div>
+    </section>
+
+    <section class="games-section" id="games" aria-labelledby="games-title">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow dark"><span></span><span data-tr="OYUNLARIMIZ" data-en="OUR GAMES">OYUNLARIMIZ</span></p>
+            <h2 id="games-title" data-tr="Küçük molalar için büyük dünyalar." data-en="Big worlds for little breaks.">Küçük molalar için<br>büyük dünyalar.</h2>
+          </div>
+          <p data-tr="Her oyun kolay öğrenilir, tatmin edici biçimde ilerler ve günün her anında size keyifli bir kaçış sunar." data-en="Every game is easy to learn, satisfying to master, and designed to offer a joyful escape at any moment of your day.">Her oyun kolay öğrenilir, tatmin edici biçimde ilerler ve günün her anında size keyifli bir kaçış sunar.</p>
+        </div>
+
+        <div class="games-grid">
+          <article class="game-card card-fruit reveal" data-game="fruit">
+            <div class="game-visual"><img src="assets/img/games/puzzle-of-fruits/screenshot-1.webp" alt="Puzzle of Fruits oynanış ekranı" loading="lazy"><span class="card-number">01</span></div>
+            <div class="game-content">
+              <img class="game-icon" src="assets/img/games/puzzle-of-fruits/icon.webp" alt="" loading="lazy">
+              <div class="game-title"><p data-tr="ÜÇLÜ EŞLEŞTİRME" data-en="TRIPLE MATCH">ÜÇLÜ EŞLEŞTİRME</p><h3>Puzzle of Fruits:<br>Cute Match</h3></div>
+              <p data-tr="Sevimli meyve taşlarını üçlü eşleştir, renkli tahtaları temizle ve zihnini dinlendir." data-en="Match three adorable fruit tiles, clear colorful boards, and give your mind a sweet little break.">Sevimli meyve taşlarını üçlü eşleştir, renkli tahtaları temizle ve zihnini dinlendir.</p>
+              <div class="card-actions"><button class="text-link game-detail" type="button" data-game="fruit"><span data-tr="Oyunu incele" data-en="View game">Oyunu incele</span><span>↗</span></button><a class="store-mini" href="https://play.google.com/store/apps/details?id=com.RBGames.PuzzleofFruitsCuteMatch" target="_blank" rel="noopener" aria-label="Puzzle of Fruits Google Play"><span>▶</span> Google Play</a></div>
+            </div>
+          </article>
+
+          <article class="game-card card-mahjong reveal" data-game="mahjong">
+            <div class="game-visual"><img src="assets/img/games/mahjong-triple-match/screenshot-1.webp" alt="Mahjong Triple Match oynanış ekranı" loading="lazy"><span class="card-number">02</span></div>
+            <div class="game-content">
+              <img class="game-icon" src="assets/img/games/mahjong-triple-match/icon.webp" alt="" loading="lazy">
+              <div class="game-title"><p data-tr="MAHJONG BULMACASI" data-en="MAHJONG PUZZLE">MAHJONG BULMACASI</p><h3>Mahjong Triple<br>Match Puzzle</h3></div>
+              <p data-tr="Klasik mahjong estetiğini modern üçlü eşleştirme mekaniğiyle buluşturan sakin bir bulmaca deneyimi." data-en="A calming puzzle experience blending classic mahjong style with modern triple-match gameplay.">Klasik mahjong estetiğini modern üçlü eşleştirme mekaniğiyle buluşturan sakin bir bulmaca deneyimi.</p>
+              <div class="card-actions"><button class="text-link game-detail" type="button" data-game="mahjong"><span data-tr="Oyunu incele" data-en="View game">Oyunu incele</span><span>↗</span></button><a class="store-mini" href="https://play.google.com/store/apps/details?id=com.RBGames.MahjongTripleMatchPuzzle" target="_blank" rel="noopener" aria-label="Mahjong Triple Match Google Play"><span>▶</span> Google Play</a></div>
+            </div>
+          </article>
+
+          <article class="game-card card-vehicle reveal" data-game="vehicle">
+            <div class="game-visual"><img src="assets/img/games/vehicle-triple-match/screenshot-1.webp" alt="Vehicle Triple Match oynanış ekranı" loading="lazy"><span class="card-number">03</span></div>
+            <div class="game-content">
+              <img class="game-icon" src="assets/img/games/vehicle-triple-match/icon.webp" alt="" loading="lazy">
+              <div class="game-title"><p data-tr="ARAÇ BULMACASI" data-en="VEHICLE PUZZLE">ARAÇ BULMACASI</p><h3>Vehicle Triple<br>Match Puzzle</h3></div>
+              <p data-tr="Arabalar, kamyonlar ve daha fazlası: araçları eşleştir, tahtayı temizle ve rahatlatıcı ritmi yakala." data-en="Cars, trucks, and more—match the vehicles, clear the board, and settle into a relaxing rhythm.">Arabalar, kamyonlar ve daha fazlası: araçları eşleştir, tahtayı temizle ve rahatlatıcı ritmi yakala.</p>
+              <div class="card-actions"><button class="text-link game-detail" type="button" data-game="vehicle"><span data-tr="Oyunu incele" data-en="View game">Oyunu incele</span><span>↗</span></button><a class="store-mini" href="https://play.google.com/store/apps/details?id=com.RBGames.VehicleTripleMatchPuzzle" target="_blank" rel="noopener" aria-label="Vehicle Triple Match Google Play"><span>▶</span> Google Play</a></div>
+            </div>
+          </article>
+
+          <article class="game-card card-animal reveal" data-game="animal">
+            <div class="game-visual"><img src="assets/img/games/cute-animal-match/screenshot-1.webp" alt="Cute Animal Match oynanış ekranı" loading="lazy"><span class="card-number">04</span></div>
+            <div class="game-content">
+              <img class="game-icon" src="assets/img/games/cute-animal-match/icon.webp" alt="" loading="lazy">
+              <div class="game-title"><p data-tr="SEVİMLİ EŞLEŞTİRME" data-en="CUTE MATCHING">SEVİMLİ EŞLEŞTİRME</p><h3>Cute Animal<br>Match Puzzle</h3></div>
+              <p data-tr="Sevimli hayvan taşlarını bul, üçlüleri tamamla ve her yaşa uygun huzurlu bölümlerin tadını çıkar." data-en="Find adorable animal tiles, complete the triples, and enjoy peaceful levels made for every age.">Sevimli hayvan taşlarını bul, üçlüleri tamamla ve her yaşa uygun huzurlu bölümlerin tadını çıkar.</p>
+              <div class="card-actions"><button class="text-link game-detail" type="button" data-game="animal"><span data-tr="Oyunu incele" data-en="View game">Oyunu incele</span><span>↗</span></button><a class="store-mini" href="https://play.google.com/store/apps/details?id=com.RBGames.CuteAnimalMatchPuzzle" target="_blank" rel="noopener" aria-label="Cute Animal Match Google Play"><span>▶</span> Google Play</a></div>
+            </div>
+          </article>
+
+          <article class="game-card card-jungle featured-card reveal" data-game="jungle">
+            <div class="game-visual"><img src="assets/img/games/block-puzzle-jungle/screenshot-1.webp" alt="Block Puzzle Jungle oynanış ekranı" loading="lazy"><span class="card-number">05</span></div>
+            <div class="game-content">
+              <img class="game-icon" src="assets/img/games/block-puzzle-jungle/icon.webp" alt="" loading="lazy">
+              <div class="game-title"><p data-tr="BLOK BULMACASI" data-en="BLOCK PUZZLE">BLOK BULMACASI</p><h3>Block Puzzle<br>Jungle: Crush</h3></div>
+              <p data-tr="Blokları akıllıca yerleştir, satırları temizle ve yemyeşil bir dünyada güçlü kombolar oluştur." data-en="Place blocks wisely, clear the lines, and build powerful combos in a lush jungle world.">Blokları akıllıca yerleştir, satırları temizle ve yemyeşil bir dünyada güçlü kombolar oluştur.</p>
+              <div class="card-actions"><button class="text-link game-detail" type="button" data-game="jungle"><span data-tr="Oyunu incele" data-en="View game">Oyunu incele</span><span>↗</span></button><a class="store-mini" href="https://play.google.com/store/apps/details?id=com.RBGames.BlockPuzzleJungleCrush" target="_blank" rel="noopener" aria-label="Block Puzzle Jungle Google Play"><span>▶</span> Google Play</a></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="studio-section" id="studio" aria-labelledby="studio-title">
+      <div class="studio-pattern"></div>
+      <div class="shell studio-grid">
+        <div class="studio-copy reveal">
+          <p class="eyebrow"><span></span><span data-tr="BCS STUDIO HAKKINDA" data-en="ABOUT BCS STUDIO">BCS STUDIO HAKKINDA</span></p>
+          <h2 id="studio-title"><span data-tr="Basit başlar." data-en="It starts simple.">Basit başlar.</span><br><em data-tr="Eğlenceye dönüşür." data-en="It becomes fun.">Eğlenceye dönüşür.</em></h2>
+          <p data-tr="Bcs Studio, İzmir'de bağımsız olarak oyunlar geliştiren küçük ve odaklı bir stüdyodur. Amacımız; sezgisel mekanikleri, neşeli görsel dünyaları ve rahatlatıcı oynanışı bir araya getirmek." data-en="Bcs Studio is a small, focused independent game studio based in Izmir. Our aim is to bring intuitive mechanics, cheerful visual worlds, and relaxing gameplay together.">Bcs Studio, İzmir'de bağımsız olarak oyunlar geliştiren küçük ve odaklı bir stüdyodur. Amacımız; sezgisel mekanikleri, neşeli görsel dünyaları ve rahatlatıcı oynanışı bir araya getirmek.</p>
+          <a class="button button-light" href="https://play.google.com/store/apps/developer?id=Bcs+Studio" target="_blank" rel="noopener"><span data-tr="Google Play'de bizi takip et" data-en="Follow us on Google Play">Google Play'de bizi takip et</span><span>↗</span></a>
+        </div>
+        <div class="values reveal">
+          <article><span>01</span><div><h3 data-tr="Herkes için" data-en="For everyone">Herkes için</h3><p data-tr="Kolay öğrenilen, her yaşa uygun oyunlar." data-en="Easy-to-learn games made for every age.">Kolay öğrenilen, her yaşa uygun oyunlar.</p></div></article>
+          <article><span>02</span><div><h3 data-tr="Her yerde" data-en="Anywhere">Her yerde</h3><p data-tr="İnternet olmadan da kesintisiz oyun keyfi." data-en="Uninterrupted play—even without the internet.">İnternet olmadan da kesintisiz oyun keyfi.</p></div></article>
+          <article><span>03</span><div><h3 data-tr="Özenle" data-en="With care">Özenle</h3><p data-tr="Temiz arayüzler, akıcı animasyonlar, tatmin edici anlar." data-en="Clean interfaces, smooth animation, satisfying moments.">Temiz arayüzler, akıcı animasyonlar, tatmin edici anlar.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="shell contact-inner reveal">
+        <p class="eyebrow dark"><span></span><span data-tr="BİZE ULAŞIN" data-en="GET IN TOUCH">BİZE ULAŞIN</span></p>
+        <h2 id="contact-title"><span data-tr="Bir fikriniz mi var?" data-en="Have an idea?">Bir fikriniz mi var?</span><br><em data-tr="Konuşalım." data-en="Let's talk.">Konuşalım.</em></h2>
+        <p data-tr="Destek, iş birliği veya yalnızca merhaba demek için bize yazabilirsiniz." data-en="Write to us for support, collaboration, or simply to say hello.">Destek, iş birliği veya yalnızca merhaba demek için bize yazabilirsiniz.</p>
+        <a class="email-link" href="mailto:batikansavci@gmail.com">batikansavci@gmail.com <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footer-inner">
+      <a class="brand" href="#top"><span class="brand-mark"><span>B</span></span><span class="brand-name">BCS <strong>STUDIO</strong></span></a>
+      <p>© <span id="year"></span> Bcs Studio. <span data-tr="Tüm hakları saklıdır." data-en="All rights reserved.">Tüm hakları saklıdır.</span></p>
+      <a href="https://play.google.com/store/apps/developer?id=Bcs+Studio" target="_blank" rel="noopener">Google Play ↗</a>
+    </div>
+  </footer>
+
+  <dialog class="game-dialog" id="game-dialog" aria-labelledby="dialog-title">
+    <button class="dialog-close" type="button" aria-label="Kapat">×</button>
+    <div class="dialog-layout">
+      <div class="dialog-gallery" id="dialog-gallery"></div>
+      <div class="dialog-copy">
+        <div class="dialog-heading"><img id="dialog-icon" alt=""><div><p id="dialog-category"></p><h2 id="dialog-title"></h2></div></div>
+        <p id="dialog-description"></p>
+        <ul id="dialog-features"></ul>
+        <a class="button button-primary" id="dialog-link" href="#" target="_blank" rel="noopener"><span data-tr="Google Play'de indir" data-en="Get it on Google Play">Google Play'de indir</span><span>↗</span></a>
+      </div>
+    </div>
+  </dialog>
+  <script src="js/scripts.js"></script>
 </body>
 </html>
